@@ -34,17 +34,17 @@ while True:
     choice = int(input("Enter your choice(1-7): "))
  
     if choice == 7:
-        print("Bye")
+        print("👋Bye, Have a nice day!🙏")
         break
 
     if choice in [1,2,3,4,5,6]:
         try:
             a = float(input("enter the first number: "))
             b = float(input("enter the second number: "))
+            
         except ValueError:
             print("❌ PLEASE ENTER THE VALID NUMBERS! ")
             continue
-
 
         if choice == 1:
             result = add(a,b)
