@@ -18,7 +18,7 @@ def modulus(a,b):
         return "❌ Cannot divisible by zero!"
     return a % b
 
-def power(a,b):
+def power(a,b):  
     return a**b
 
 while True:
@@ -73,7 +73,3 @@ while True:
     else:
         print("❌ Invalid option! Please choose 1-7.")
                 
-
-
-    
-    
